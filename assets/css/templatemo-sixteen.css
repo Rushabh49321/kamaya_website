@@ -716,7 +716,6 @@ body {
   .call-to-action .inner-content h4 {
 	  font-size: 17px;
 	  color: #1a6692;
-	  margin-bottom: 15px;
   }
   
   .call-to-action .inner-content em {
@@ -737,13 +736,13 @@ body {
   /* Footer */
   
   footer {
+	  margin-top: 30px;
 	  text-align: center;
-	  margin-left: 30%;
+	  margin-left: 37%;
   }
   
   footer .inner-content {
 	  border-top: 1px solid #eee;
-	  padding:40px 0px;
   }
   
   footer .inner-content p {
@@ -1210,7 +1209,7 @@ body {
 	    
 	  footer {
 		text-align: center;
-		margin-left:10%;
+		margin-left:28%;
 		}
 		footer .inner-content p {
 			font-size: 10px;
