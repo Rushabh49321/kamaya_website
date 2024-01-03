@@ -22,10 +22,10 @@ $.fn.jQuerySimpleCounter = function( options ) {
 };
 
 
-$('#number1').jQuerySimpleCounter({end: 12,duration: 3000});
-$('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
-$('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
-$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+$('#number1').jQuerySimpleCounter({end: 6,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 269,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 6,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 1000,duration: 2500});
 
 
 
@@ -66,9 +66,11 @@ jQuery( document ).ready(function( $ ) {
           if (scroll >= box - header) {
             $("header").addClass("background-header");
             $(".logo").attr("src", "./assets/images/kamya-black.png");
+            $(".shop-button").css({"background-color": "#44536a", "color": "#fff"});
           } else {
             $("header").removeClass("background-header");
             $(".logo").attr("src", "./assets/images/kamya-white.png");
+            $(".shop-button").css({"background-color": "#fff", "color": "#44536a"});
           }
         });
         if ($('.owl-clients').length) {
@@ -241,4 +243,7 @@ if (window.matchMedia("(min-width:576px)").matches) {
   });
 } else {
   $(multipleItemCarousel).addClass("slide");
+}
+function shop(){
+    window.location.href = "http://kamyatextilemills.com/"
 }

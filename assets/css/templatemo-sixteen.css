@@ -313,6 +313,16 @@ body {
 	  line-height: 26px;
 	  font-family: 'FontAwesome';
   }
+  .shop-button{
+	color: #44536a;
+	background-color: #fff;
+	border: none;
+	width: 120px;
+	height: 50px;
+	margin-left: 60px;
+	cursor: pointer;
+	border-radius: 3px;
+  }
   .logo{
 	  height: 70px;
 	  width: 70px;
@@ -413,7 +423,7 @@ body {
   
   .banner-item-01 {
 	  padding: 300px 0px;
-	  background-image: url(../images/slide_01.jpg);
+	  background-image: url(../images/carousel1.jpg);
 	  background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center center;
@@ -421,7 +431,7 @@ body {
   
   .banner-item-02 {
 	  padding: 300px 0px;
-	  background-image: url(../images/slide_02.jpg);
+	  background-image: url(../images/carousel2.jpg);
 	  background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center center;
@@ -429,7 +439,7 @@ body {
   
   .banner-item-03 {
 	  padding: 300px 0px;
-	  background-image: url(../images/slide_03.jpg);
+	  background-image: url(../images/carousel3.jpg);
 	  background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center center;
@@ -448,7 +458,7 @@ body {
   }
   
   .banner .text-content h4 {
-	  color: #44536a;
+	  color: #fff;
 	  font-size: 22px;
 	  text-transform: uppercase;
 	  font-weight: 700;
